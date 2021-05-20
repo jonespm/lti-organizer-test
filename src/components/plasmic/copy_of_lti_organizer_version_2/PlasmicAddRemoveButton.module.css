@@ -1,0 +1,21 @@
+.root {
+  width: 130px;
+  color: #fffafa;
+  text-align: center;
+  position: relative;
+  padding: 3px;
+  background: linear-gradient(#2bc744, #2bc744), #015906;
+}
+.root__removeToolFromSite {
+  background: linear-gradient(#ff0000, #ff0000),
+    linear-gradient(#2bc744, #2bc744), #015906;
+}
+.root:active {
+  background: linear-gradient(#ff0000, #ff0000),
+    linear-gradient(#2bc744, #2bc744), #015906;
+}
+.root__removeToolFromSite:active {
+  background: linear-gradient(#2bc744, #2bc744),
+    linear-gradient(#ffffff, #ffffff), linear-gradient(#ff0000, #ff0000),
+    linear-gradient(#2bc744, #2bc744), #015906;
+}

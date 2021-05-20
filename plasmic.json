@@ -1,0 +1,330 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "seaQhLVS4bbjiGvJJrRwyL",
+      "projectName": "LIBRARY Plasmic Color + Type",
+      "version": "latest",
+      "cssFilePath": "plasmic/library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "projectApiToken": "nPw276qGsy9kISQCHrcRrsj3Y9Yva9TMyYKNUpoOMOHgRj1A51qOC6LMB2185QlA52K87n32oQJHSi5be9w"
+    },
+    {
+      "projectId": "4smDGpnAjxXprAJJNMsm4F",
+      "projectName": "Copy of LTI Organizer Version 2",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/plasmic_copy_of_lti_organizer_version_2.module.css",
+      "components": [
+        {
+          "id": "qSCo5LIBKogb6",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "4smDGpnAjxXprAJJNMsm4F",
+          "renderModuleFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicHome.tsx",
+          "importSpec": {
+            "modulePath": "Home.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "N170ewgljCnaz",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "4smDGpnAjxXprAJJNMsm4F",
+          "renderModuleFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CuoeLC8bmCrU8",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "4smDGpnAjxXprAJJNMsm4F",
+          "renderModuleFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "I2Tl4s0MjH4lI",
+          "name": "ProductCard",
+          "type": "managed",
+          "projectId": "4smDGpnAjxXprAJJNMsm4F",
+          "renderModuleFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicProductCard.tsx",
+          "importSpec": {
+            "modulePath": "ProductCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicProductCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_dAnqW-cFBjXk",
+          "name": "LinkButton",
+          "type": "managed",
+          "projectId": "4smDGpnAjxXprAJJNMsm4F",
+          "renderModuleFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicLinkButton.tsx",
+          "importSpec": {
+            "modulePath": "LinkButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicLinkButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "BTNrH-X8sJtFz",
+          "name": "IconLink",
+          "type": "managed",
+          "projectId": "4smDGpnAjxXprAJJNMsm4F",
+          "renderModuleFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicIconLink.tsx",
+          "importSpec": {
+            "modulePath": "IconLink.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicIconLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0VzF18p6W9qeV",
+          "name": "MenuButton",
+          "type": "managed",
+          "projectId": "4smDGpnAjxXprAJJNMsm4F",
+          "renderModuleFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicMenuButton.tsx",
+          "importSpec": {
+            "modulePath": "MenuButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicMenuButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "9LQQvRQk5Agsp",
+          "name": "Ratings",
+          "type": "managed",
+          "projectId": "4smDGpnAjxXprAJJNMsm4F",
+          "renderModuleFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicRatings.tsx",
+          "importSpec": {
+            "modulePath": "Ratings.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicRatings.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Jken9iMDI9nE3",
+          "name": "AddRemoveButton",
+          "type": "managed",
+          "projectId": "4smDGpnAjxXprAJJNMsm4F",
+          "renderModuleFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicAddRemoveButton.tsx",
+          "importSpec": {
+            "modulePath": "AddRemoveButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicAddRemoveButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "KHUctKZ4wl3yj",
+          "name": "LearnMoreCard",
+          "type": "managed",
+          "projectId": "4smDGpnAjxXprAJJNMsm4F",
+          "renderModuleFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicLearnMoreCard.tsx",
+          "importSpec": {
+            "modulePath": "LearnMoreCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicLearnMoreCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "szdf_Jb-yNbXZI",
+          "name": "SearchIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Search.tsx"
+        },
+        {
+          "id": "j6my7liRkS1mYY",
+          "name": "CogIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Cog.tsx"
+        },
+        {
+          "id": "mb2PBuZZT34ygW",
+          "name": "ShoppingCartIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__ShoppingCart.tsx"
+        },
+        {
+          "id": "MlmpJnxFaKZgGV",
+          "name": "TimesIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Times.tsx"
+        },
+        {
+          "id": "NU0PNhnXLJZxRU",
+          "name": "BarsIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Bars.tsx"
+        },
+        {
+          "id": "nbCoKakpCiZoVo",
+          "name": "LogoIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Logo.tsx"
+        },
+        {
+          "id": "ye2djb_FjhMCAM",
+          "name": "SphereIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Sphere.tsx"
+        },
+        {
+          "id": "6XbOhvnnRwB51T",
+          "name": "FacebookIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Facebook.tsx"
+        },
+        {
+          "id": "kiHnggqHYbC9p7",
+          "name": "InstagramIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Instagram.tsx"
+        },
+        {
+          "id": "TnRhOMFK5Bc_0T",
+          "name": "LinkedinIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Linkedin.tsx"
+        },
+        {
+          "id": "kzhpWt8U-U8d9F",
+          "name": "LocationArrowIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__LocationArrow.tsx"
+        },
+        {
+          "id": "vMQ3B0rNfPVwpv",
+          "name": "StarOIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__StarO.tsx"
+        },
+        {
+          "id": "b-ZwK9Bxn2B4rd",
+          "name": "StarIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Star.tsx"
+        },
+        {
+          "id": "BYOf1_7pBlohEy",
+          "name": "ExpandIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__Expand.tsx"
+        },
+        {
+          "id": "8xEF_dULebj1bL",
+          "name": "HeartOIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__HeartO.tsx"
+        },
+        {
+          "id": "XIao159ChuEp5e",
+          "name": "DotCircleOIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__DotCircleO.tsx"
+        },
+        {
+          "id": "ftbuYXo5HzaOb8",
+          "name": "CircleOIcon",
+          "moduleFilePath": "plasmic/copy_of_lti_organizer_version_2/icons/PlasmicIcon__CircleO.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "rH3VYT-_lArY2a",
+          "name": "My Learning Analytics",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/myLearningAnalytics.png"
+        },
+        {
+          "id": "yzLDd7ysEkmFGx",
+          "name": "Piazza",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/piazza.png"
+        },
+        {
+          "id": "gBrjx0ujVNICmu",
+          "name": "Panopto Logo 2",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/panoptoLogo2.png"
+        },
+        {
+          "id": "nWNvdB-MZLrZ-h",
+          "name": "Panopto",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/panopto.png"
+        },
+        {
+          "id": "yNpH2hW85Ebte0",
+          "name": "Zoom Logo",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/zoomLogo.png"
+        },
+        {
+          "id": "Cp9T_UfUFtLOY5",
+          "name": "Zoom",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/zoom.png"
+        },
+        {
+          "id": "tX7bx--ayhFPpd",
+          "name": "Piazza logo",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/piazzaLogo.png"
+        },
+        {
+          "id": "9BOYtCaIrknqK_",
+          "name": "MyLA logo",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/myLaLogo.png"
+        },
+        {
+          "id": "6jezRhrS5tQIxd",
+          "name": "ZoomMeeting.png",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/zoomMeetingpng.png"
+        },
+        {
+          "id": "jwPStMRfspUPLE",
+          "name": "piazzainstructorpost.png",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/piazzainstructorpostpng.png"
+        },
+        {
+          "id": "NgqgxhTQKzQc6S",
+          "name": "panopto-video-platform-in-video-quizzing-1280x662.jpg",
+          "filePath": "plasmic/copy_of_lti_organizer_version_2/images/panoptoVideoPlatformInVideoQuizzing1280X662Jpg.jpeg"
+        }
+      ],
+      "projectApiToken": "D5eSnW35s1D0ulxUh9xA3nIFZUpejSIE1MhbGDSYmEbIHM1OAJ2p40zDGPSZLxmarCGAv4zWWcUizIYsiw"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "wzOKwfzlFFdQt",
+        "name": "Screen",
+        "projectId": "4smDGpnAjxXprAJJNMsm4F",
+        "contextFilePath": "plasmic/copy_of_lti_organizer_version_2/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.149",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.149/dist/plasmic.schema.json"
+}
